@@ -1,0 +1,78 @@
+.list-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+div.MuiDrawer-paperAnchorLeft {
+    position: relative;
+}
+
+.create-event-btn {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.profile-avatar.profile-avatar.profile-avatar.profile-avatar {
+    width: 8rem;
+    height: 8rem;
+}
+
+.avatar-container {
+    position: relative;
+    display: flex;
+    margin-top: 1rem;
+    
+    @media (max-width: 600px) {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.avatar-display-name.avatar-display-name.avatar-display-name {
+    padding: 3rem 1rem 2rem 2rem;
+    font-weight: 700;
+
+    @media (max-width: 600px) {
+        padding: none;
+        padding-top: 1rem;
+    }
+}
+
+.avatar-customer {
+    position: absolute;
+    left: 10rem;
+    top: 5rem;
+
+    @media (max-width: 600px) {
+        left: 8rem;
+        top: 11rem;
+    }
+}
+
+.info-container {
+    margin-top: 2rem;
+}
+
+.info {
+    margin-top: 2rem;
+    font-weight: 700;
+}
+
+.info:not(:first-child) {
+    margin-top: 3rem;
+}
+.edit-btn {
+    margin-top: -12px;
+}
+
+.dashboard-title {
+    @media (max-width: 600px) {
+        font-size: 2rem;
+        // font-weight: 700;
+    }
+}
+
+.edit-submit {
+    margin-top: 2rem;
+    margin-right: 1rem;
+}

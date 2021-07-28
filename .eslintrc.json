@@ -1,0 +1,52 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "plugin:react-hooks/recommended"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react",
+        "only-warn"
+    ],
+    "rules": {
+        "react/jsx-equals-spacing": [
+            2,
+            "never"
+        ],
+        "no-multi-spaces": "error",
+        "react/jsx-closing-bracket-location": [
+            1,
+            "tag-aligned"
+        ],
+        "react/jsx-closing-tag-location": "error",
+        "react/jsx-sort-props": 1,
+        "react/jsx-space-before-closing": [
+            2,
+            "always"
+        ],
+        "indent": [
+            "error",
+            "tab"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ]
+    }
+}

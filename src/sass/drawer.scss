@@ -1,0 +1,32 @@
+$drawer-width: 15rem;
+$drawer-width-mobile: 3.5rem; 
+
+.drawer-root {
+    display: flex;
+}
+
+.drawer {
+    width: $drawer-width;
+    flex-shrink: 0;
+
+    @media (max-width: 600px) {
+        width: $drawer-width-mobile;
+    }
+}
+
+.drawer-paper {
+    width: $drawer-width;
+
+    @media (max-width: 600px) {
+        width: $drawer-width-mobile;
+    }
+}
+
+.drawer-container {
+    overflow: hidden;
+}
+
+.drawer-content {
+    flex-grow: 1;
+    padding: 1.5rem;
+}
